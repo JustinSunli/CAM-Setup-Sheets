@@ -382,6 +382,7 @@
             this.Name = "SOLIDWORKS_CAM_Setup_Sheets";
             this.Text = "SOLIDWORKS CAM Setup Sheets";
             this.TopMost = true;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SOLIDWORKS_CAM_Setup_Sheets_FormClosing);
             this.Load += new System.EventHandler(this.SOLIDWORKS_CAM_Setup_Sheets_Load);
             this.OutputType_groupBox.ResumeLayout(false);
             this.OutputType_groupBox.PerformLayout();

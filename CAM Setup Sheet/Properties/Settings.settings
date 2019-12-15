@@ -144,7 +144,7 @@
       <Value Profile="(Default)">Black</Value>
     </Setting>
     <Setting Name="TextFontFor1stHeaderRow" Type="System.Drawing.Font" Scope="User">
-      <Value Profile="(Default)">Microsoft Sans Serif, 20.25pt, style=Bold</Value>
+      <Value Profile="(Default)">Microsoft Sans Serif, 15.75pt, style=Bold</Value>
     </Setting>
     <Setting Name="TitleRowUseDocumentFontCheckBox" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
@@ -228,10 +228,10 @@
       <Value Profile="(Default)">Blue</Value>
     </Setting>
     <Setting Name="TextFontFor2ndHeaderRow" Type="System.Drawing.Font" Scope="User">
-      <Value Profile="(Default)">Microsoft Sans Serif, 8.25pt</Value>
+      <Value Profile="(Default)">Microsoft Sans Serif, 15.75pt</Value>
     </Setting>
     <Setting Name="TextFontFor3rdHeaderRow" Type="System.Drawing.Font" Scope="User">
-      <Value Profile="(Default)">Microsoft Sans Serif, 8.25pt</Value>
+      <Value Profile="(Default)">Microsoft Sans Serif, 15.75pt</Value>
     </Setting>
     <Setting Name="Row1MergeAndCenterChecked" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
@@ -925,6 +925,126 @@
     </Setting>
     <Setting Name="ForeColorForOperationAlternatingDataRow" Type="System.Drawing.Color" Scope="User">
       <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRow1Bold" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRow1TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRow2TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRow3TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow4TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow5TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow6TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow7TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow8TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow9TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow10TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow11TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow12TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow4TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow5TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow6TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow7TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow8TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow9TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow10TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow11TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderLeftRow12TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow4TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow5TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow6TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow7TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow8TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow9TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow10TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow11TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow12TextAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow4TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow5TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow6TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow7TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow8TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow9TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow10TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow11TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="OperationsHeaderRightRow12TextParametersAlign" Type="System.Windows.Forms.HorizontalAlignment" Scope="User">
+      <Value Profile="(Default)">Left</Value>
     </Setting>
   </Settings>
 </SettingsFile>

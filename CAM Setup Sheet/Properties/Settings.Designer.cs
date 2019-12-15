@@ -390,7 +390,7 @@ namespace CAM_Setup_Sheets.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Microsoft Sans Serif, 20.25pt, style=Bold")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Microsoft Sans Serif, 15.75pt, style=Bold")]
         public global::System.Drawing.Font TextFontFor1stHeaderRow {
             get {
                 return ((global::System.Drawing.Font)(this["TextFontFor1stHeaderRow"]));
@@ -726,7 +726,7 @@ namespace CAM_Setup_Sheets.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Microsoft Sans Serif, 8.25pt")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Microsoft Sans Serif, 15.75pt")]
         public global::System.Drawing.Font TextFontFor2ndHeaderRow {
             get {
                 return ((global::System.Drawing.Font)(this["TextFontFor2ndHeaderRow"]));
@@ -738,7 +738,7 @@ namespace CAM_Setup_Sheets.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Microsoft Sans Serif, 8.25pt")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Microsoft Sans Serif, 15.75pt")]
         public global::System.Drawing.Font TextFontFor3rdHeaderRow {
             get {
                 return ((global::System.Drawing.Font)(this["TextFontFor3rdHeaderRow"]));
@@ -3517,6 +3517,486 @@ namespace CAM_Setup_Sheets.Properties {
             }
             set {
                 this["ForeColorForOperationAlternatingDataRow"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool OperationsHeaderRow1Bold {
+            get {
+                return ((bool)(this["OperationsHeaderRow1Bold"]));
+            }
+            set {
+                this["OperationsHeaderRow1Bold"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRow1TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRow1TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRow1TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRow2TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRow2TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRow2TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRow3TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRow3TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRow3TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow4TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow4TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow4TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow5TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow5TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow5TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow6TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow6TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow6TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow7TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow7TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow7TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow8TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow8TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow8TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow9TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow9TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow9TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow10TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow10TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow10TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow11TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow11TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow11TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow12TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow12TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow12TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow4TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow4TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow4TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow5TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow5TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow5TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow6TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow6TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow6TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow7TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow7TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow7TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow8TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow8TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow8TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow9TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow9TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow9TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow10TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow10TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow10TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow11TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow11TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow11TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderLeftRow12TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderLeftRow12TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderLeftRow12TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow4TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow4TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow4TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow5TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow5TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow5TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow6TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow6TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow6TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow7TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow7TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow7TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow8TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow8TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow8TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow9TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow9TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow9TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow10TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow10TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow10TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow11TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow11TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow11TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow12TextAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow12TextAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow12TextAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow4TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow4TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow4TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow5TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow5TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow5TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow6TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow6TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow6TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow7TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow7TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow7TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow8TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow8TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow8TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow9TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow9TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow9TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow10TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow10TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow10TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow11TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow11TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow11TextParametersAlign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Left")]
+        public global::System.Windows.Forms.HorizontalAlignment OperationsHeaderRightRow12TextParametersAlign {
+            get {
+                return ((global::System.Windows.Forms.HorizontalAlignment)(this["OperationsHeaderRightRow12TextParametersAlign"]));
+            }
+            set {
+                this["OperationsHeaderRightRow12TextParametersAlign"] = value;
             }
         }
     }

@@ -6,12 +6,16 @@ using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using Application = Microsoft.Office.Interop.Excel.Application;
 using Font = System.Drawing.Font;
+using Syncfusion.Windows.Forms.Tools;
 
 namespace CAM_Setup_Sheets
 {
     public partial class ExcelTemplateWizardStart : Form
     {
         private Worksheet worksheet = null;
+
+        // Current TextBox
+        TextBoxExt CurrentTextBox = null;
         public ExcelTemplateWizardStart()
         {
             InitializeComponent();
@@ -1439,7 +1443,7 @@ namespace CAM_Setup_Sheets
         }
         private void ANYTextBox_DragDrop(object sender, DragEventArgs e)
         {
-            if (sender.GetType().Name == "TextBox")
+            if (sender is Syncfusion.Windows.Forms.Tools.TextBoxExt)
             {
                 var s = e.Data.GetData(DataFormats.StringFormat).ToString();
                 System.Windows.Forms.TextBox tb = (System.Windows.Forms.TextBox)sender;
@@ -1448,21 +1452,35 @@ namespace CAM_Setup_Sheets
         }
         private void ANYTextBox_DragEnter(object sender, DragEventArgs e)
         {
-            if (sender.GetType().Name == "TextBox")
+            if (sender is Syncfusion.Windows.Forms.Tools.TextBoxExt)
             {
                 e.Effect = DragDropEffects.All;
             }
         }
 
-        private void ListBoxPostParameters_MouseDown(object sender, MouseEventArgs e)
+        private void ANY_ListBox_MouseDown(object sender, MouseEventArgs e)
         {
-            if (listBoxPostParameters.Items.Count == 0) return;
-
-            var index = listBoxPostParameters.IndexFromPoint(e.X, e.Y);
-            if (index != -1)
+            if (!(sender is Syncfusion.Windows.Forms.Tools.TextBoxExt))
             {
-                var s = listBoxPostParameters.Items[index].ToString();
-                var dde1 = DoDragDrop(s, DragDropEffects.All);
+                if (CurrentTextBox != null)
+                {
+                    CurrentTextBox.BorderColor = Color.Black;
+                    CurrentTextBox.CornerRadius = 0;
+                }
+                CurrentTextBox = null;
+            }
+
+            if (sender is System.Windows.Forms.ListBox)
+            {
+                System.Windows.Forms.ListBox lb = (System.Windows.Forms.ListBox)sender;
+	            if (lb.Items.Count == 0) return;
+	
+	            var index = lb.IndexFromPoint(e.X, e.Y);
+	            if (index != -1)
+	            {
+	                var s = lb.Items[index].ToString();
+	                var dde1 = DoDragDrop(s, DragDropEffects.All);
+	            }
             }
         }
 
@@ -1625,6 +1643,10 @@ namespace CAM_Setup_Sheets
             TabControl1.SelectedIndex = 8;
             
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TabControl1.SelectedIndex = 9;
+        }
         private void GOTO_OPerations_Parameters(object sender, EventArgs e)
         {
             
@@ -1761,9 +1783,9 @@ namespace CAM_Setup_Sheets
 
 
             // Set top row text
-            newWorksheet.Cells[1, 1].Value = textBoxRow1.Text;
-            newWorksheet.Cells[2, 1].Value = textBoxRow2.Text;
-            newWorksheet.Cells[3, 1].Value = textBoxRow3.Text;
+            newWorksheet.Cells[1, 1].Value = OperationsHeaderRow1.Text;
+            newWorksheet.Cells[2, 1].Value = OperationsHeaderRow2.Text;
+            newWorksheet.Cells[3, 1].Value = OperationsHeaderRow3.Text;
 
             // Set Fonts and Colors
             var rng1 = newWorksheet.Range["A1", Type.Missing];
@@ -3431,6 +3453,210 @@ namespace CAM_Setup_Sheets
                 }
             }
         }
+
+        private void SetButtonStatesFromTextBox()
+        {
+            // Bold Button
+            if (CurrentTextBox.Font.Bold)
+            {
+                BoldButton.Checked = true;
+            }
+
+            else
+            {
+                BoldButton.Checked = false;
+            }
+
+            // Italic Button
+            if (CurrentTextBox.Font.Italic)
+            {
+                ItalicButton.Checked = true;
+            }
+
+            else
+            {
+                ItalicButton.Checked = false;
+            }
+
+            // Underline Button
+            if (CurrentTextBox.Font.Underline)
+            {
+                UnderlineButton.Checked = true;
+            }
+
+            else
+            {
+                UnderlineButton.Checked = false;
+            }
+        }
+
+        private void ANY_TextBox_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (sender is Syncfusion.Windows.Forms.Tools.TextBoxExt)
+            {
+                if (CurrentTextBox != null)
+                {
+                    CurrentTextBox.BorderColor = Color.Black;
+                    CurrentTextBox.CornerRadius = 0;
+                }
+                CurrentTextBox = (Syncfusion.Windows.Forms.Tools.TextBoxExt)sender;
+                CurrentTextBox.DeselectAll();
+                CurrentTextBox.BorderColor = Color.Red;
+                CurrentTextBox.CornerRadius = CurrentTextBox.Height/2;
+                SetButtonStatesFromTextBox();
+
+            }
+        }
+
+        private void BoldButton_Click(object sender, EventArgs e)
+        {
+            if(BoldButton.Checked)
+            {
+                BoldButton.Checked = false;
+            }
+
+            else
+            {
+                BoldButton.Checked = true;
+            }
+
+            if (CurrentTextBox != null)
+            {
+                CurrentTextBox.Font = new Font(CurrentTextBox.Font, FontStyle.Bold ^ CurrentTextBox.Font.Style); ;
+            }
+        }
+
+        private void ItalicButton_Click(object sender, EventArgs e)
+        {
+            if (ItalicButton.Checked)
+            {
+                ItalicButton.Checked = false;
+            }
+
+            else
+            {
+                ItalicButton.Checked = true;
+            }
+
+            if (CurrentTextBox != null)
+            {
+                CurrentTextBox.Font = new Font(CurrentTextBox.Font, FontStyle.Italic ^ CurrentTextBox.Font.Style); ;
+            }
+        }
+
+        private void UnderlineButton_Click(object sender, EventArgs e)
+        {
+            if (UnderlineButton.Checked)
+            {
+                UnderlineButton.Checked = false;
+            }
+
+            else
+            {
+                UnderlineButton.Checked = true;
+            }
+
+            if (CurrentTextBox != null)
+            {
+                CurrentTextBox.Font = new Font(CurrentTextBox.Font, FontStyle.Underline ^ CurrentTextBox.Font.Style); ;
+            }
+        }
+
+        private void FillcolorButton_Click(object sender, EventArgs e)
+        {
+            if (CurrentTextBox != null)
+            {
+                var col = new ColorDialog();
+                col.Color = CurrentTextBox.BackColor;
+                var res = col.ShowDialog();
+                if (res == DialogResult.OK)
+                {
+                   CurrentTextBox.BackColor = col.Color;
+
+                }
+            }
+        }
+
+        private void FontcolorButton_Click(object sender, EventArgs e)
+        {
+            if (CurrentTextBox != null)
+            {
+                var col = new ColorDialog();
+                col.Color = CurrentTextBox.ForeColor;
+                var res = col.ShowDialog();
+                if (res == DialogResult.OK)
+                {
+                    CurrentTextBox.ForeColor = col.Color;
+                }
+            }
+        }
+
+        private void FontSettingsButton_Click(object sender, EventArgs e)
+        {
+            if (CurrentTextBox != null)
+            {
+                var fd = new FontDialog();
+                fd.Font = CurrentTextBox.Font;
+                var res = fd.ShowDialog();
+                if (res == DialogResult.OK)
+                {
+                    CurrentTextBox.Font = fd.Font;
+                }
+            }
+        }
+
+        private void AlignLeftButton_Click(object sender, EventArgs e)
+        {
+            if (CurrentTextBox != null)
+            {
+                CurrentTextBox.TextAlign = HorizontalAlignment.Left;
+                CurrentTextBox.TextAlign = HorizontalAlignment.Left;
+            }
+        }
+
+        private void CenterTextButton_Click(object sender, EventArgs e)
+        {
+            if (CurrentTextBox != null)
+            {
+                CurrentTextBox.TextAlign = HorizontalAlignment.Center;
+                CurrentTextBox.TextAlign = HorizontalAlignment.Center;
+            }
+        }
+
+        private void AlignRightButton_Click(object sender, EventArgs e)
+        {
+            if (CurrentTextBox != null)
+            {
+                CurrentTextBox.TextAlign = HorizontalAlignment.Right;
+                CurrentTextBox.TextAlign = HorizontalAlignment.Right;
+            }
+        }
+
+        /// <summary>
+        /// Sets controls to double buffered
+        /// </summary>
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000;
+                return cp;
+            }
+        }
+
+        private void ANY_MouseDown_Restore_TextBox_State(object sender, MouseEventArgs e)
+        {
+            if (!(sender is Syncfusion.Windows.Forms.Tools.TextBoxExt))
+            {
+                if (CurrentTextBox != null)
+                {
+                    CurrentTextBox.BorderColor = Color.Black;
+                    CurrentTextBox.CornerRadius = 0;
+                }
+                CurrentTextBox = null;
+            }
+        }
     }
 }
 
@@ -3445,46 +3671,46 @@ internal class FlickerFreeListBox : System.Windows.Forms.ListBox
             true);
         this.DrawMode = DrawMode.OwnerDrawFixed;
     }
-    protected override void OnDrawItem(DrawItemEventArgs e)
-    {
-        if (this.Items.Count > 0)
-        {
-            e.DrawBackground();
-            e.Graphics.DrawString(this.Items[e.Index].ToString(), e.Font, new SolidBrush(this.ForeColor), new PointF(e.Bounds.X, e.Bounds.Y));
-        }
-        base.OnDrawItem(e);
-    }
-    protected override void OnPaint(PaintEventArgs e)
-    {
-        Region iRegion = new Region(e.ClipRectangle);
-        e.Graphics.FillRegion(new SolidBrush(this.BackColor), iRegion);
-        if (this.Items.Count > 0)
-        {
-            for (int i = 0; i < this.Items.Count; ++i)
-            {
-                System.Drawing.Rectangle irect = this.GetItemRectangle(i);
-                if (e.ClipRectangle.IntersectsWith(irect))
-                {
-                    if ((this.SelectionMode == SelectionMode.One && this.SelectedIndex == i)
-                    || (this.SelectionMode == SelectionMode.MultiSimple && this.SelectedIndices.Contains(i))
-                    || (this.SelectionMode == SelectionMode.MultiExtended && this.SelectedIndices.Contains(i)))
-                    {
-                        OnDrawItem(new DrawItemEventArgs(e.Graphics, this.Font,
-                            irect, i,
-                            DrawItemState.Selected, this.ForeColor,
-                            this.BackColor));
-                    }
-                    else
-                    {
-                        OnDrawItem(new DrawItemEventArgs(e.Graphics, this.Font,
-                            irect, i,
-                            DrawItemState.Default, this.ForeColor,
-                            this.BackColor));
-                    }
-                    iRegion.Complement(irect);
-                }
-            }
-        }
-        base.OnPaint(e);
-    }
+    //protected override void OnDrawItem(DrawItemEventArgs e)
+    //{
+    //    if (this.Items.Count > 0)
+    //    {
+    //        e.DrawBackground();
+    //        e.Graphics.DrawString(this.Items[e.Index].ToString(), e.Font, new SolidBrush(this.ForeColor), new PointF(e.Bounds.X, e.Bounds.Y));
+    //    }
+    //    base.OnDrawItem(e);
+    //}
+    //protected override void OnPaint(PaintEventArgs e)
+    //{
+    //    Region iRegion = new Region(e.ClipRectangle);
+    //    e.Graphics.FillRegion(new SolidBrush(this.BackColor), iRegion);
+    //    if (this.Items.Count > 0)
+    //    {
+    //        for (int i = 0; i < this.Items.Count; ++i)
+    //        {
+    //            System.Drawing.Rectangle irect = this.GetItemRectangle(i);
+    //            if (e.ClipRectangle.IntersectsWith(irect))
+    //            {
+    //                if ((this.SelectionMode == SelectionMode.One && this.SelectedIndex == i)
+    //                || (this.SelectionMode == SelectionMode.MultiSimple && this.SelectedIndices.Contains(i))
+    //                || (this.SelectionMode == SelectionMode.MultiExtended && this.SelectedIndices.Contains(i)))
+    //                {
+    //                    OnDrawItem(new DrawItemEventArgs(e.Graphics, this.Font,
+    //                        irect, i,
+    //                        DrawItemState.Selected, this.ForeColor,
+    //                        this.BackColor));
+    //                }
+    //                else
+    //                {
+    //                    OnDrawItem(new DrawItemEventArgs(e.Graphics, this.Font,
+    //                        irect, i,
+    //                        DrawItemState.Default, this.ForeColor,
+    //                        this.BackColor));
+    //                }
+    //                iRegion.Complement(irect);
+    //            }
+    //        }
+    //    }
+    //    base.OnPaint(e);
+    //}
 }

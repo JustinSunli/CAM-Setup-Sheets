@@ -437,5 +437,10 @@ namespace CAM_Setup_Sheets
             frm.ShowDialog();
             this.WindowState = FormWindowState.Normal;
         }
+
+        private void SOLIDWORKS_CAM_Setup_Sheets_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.Save();
+        }
     }
 }
