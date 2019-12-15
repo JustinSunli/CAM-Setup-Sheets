@@ -85,7 +85,6 @@
             this.Button_RH_Row11ForeColorText = new System.Windows.Forms.Button();
             this.Button_RH_Row10BackColorText = new System.Windows.Forms.Button();
             this.Button_RH_Row10ForeColorText = new System.Windows.Forms.Button();
-            this.listBoxPostParametersTab9 = new FlickerFreeListBox();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.checkBox29 = new System.Windows.Forms.CheckBox();
             this.checkBox30 = new System.Windows.Forms.CheckBox();
@@ -142,7 +141,6 @@
             this.Button_RH_Row8ForeColorText = new System.Windows.Forms.Button();
             this.Button_RH_Row7BackColorText = new System.Windows.Forms.Button();
             this.Button_RH_Row7ForeColorText = new System.Windows.Forms.Button();
-            this.listBoxPostParametersTab8 = new FlickerFreeListBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.checkBox26 = new System.Windows.Forms.CheckBox();
             this.checkBox27 = new System.Windows.Forms.CheckBox();
@@ -197,7 +195,6 @@
             this.Button_RH_Row5ForeColorText = new System.Windows.Forms.Button();
             this.Button_RH_Row4BackColorText = new System.Windows.Forms.Button();
             this.Button_RH_Row4ForeColorText = new System.Windows.Forms.Button();
-            this.listBoxPostParametersTab7 = new FlickerFreeListBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.checkBox23 = new System.Windows.Forms.CheckBox();
             this.checkBox24 = new System.Windows.Forms.CheckBox();
@@ -254,7 +251,6 @@
             this.buttonRow11ForeColorText = new System.Windows.Forms.Button();
             this.buttonRow10BackColorText = new System.Windows.Forms.Button();
             this.buttonRow10ForeColorText = new System.Windows.Forms.Button();
-            this.listBoxPostParametersTab6 = new FlickerFreeListBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.checkBox20 = new System.Windows.Forms.CheckBox();
             this.checkBox21 = new System.Windows.Forms.CheckBox();
@@ -311,7 +307,6 @@
             this.buttonRow8ForeColorText = new System.Windows.Forms.Button();
             this.buttonRow7BackColorText = new System.Windows.Forms.Button();
             this.buttonRow7ForeColorText = new System.Windows.Forms.Button();
-            this.listBoxPostParametersTab5 = new FlickerFreeListBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.checkBox18 = new System.Windows.Forms.CheckBox();
@@ -366,7 +361,6 @@
             this.buttonRow5ForeColorText = new System.Windows.Forms.Button();
             this.buttonRow4BackColorText = new System.Windows.Forms.Button();
             this.buttonRow4ForeColorText = new System.Windows.Forms.Button();
-            this.listBoxPostParametersTab4 = new FlickerFreeListBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.Button_ResetAllValues = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
@@ -439,8 +433,6 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.listBoxPostParameters = new System.Windows.Forms.ListBox();
             this.label153 = new System.Windows.Forms.Label();
-            this.label157 = new System.Windows.Forms.Label();
-            this.label156 = new System.Windows.Forms.Label();
             this.label155 = new System.Windows.Forms.Label();
             this.label154 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -494,6 +486,24 @@
             this.TextBoxRow12RightSide = new Syncfusion.Windows.Forms.Tools.TextBoxExt();
             this.TextBoxRow8RightSide = new Syncfusion.Windows.Forms.Tools.TextBoxExt();
             this.label131 = new System.Windows.Forms.Label();
+            this.label156 = new System.Windows.Forms.Label();
+            this.label157 = new System.Windows.Forms.Label();
+            this.label162 = new System.Windows.Forms.Label();
+            this.label163 = new System.Windows.Forms.Label();
+            this.label164 = new System.Windows.Forms.Label();
+            this.label165 = new System.Windows.Forms.Label();
+            this.label166 = new System.Windows.Forms.Label();
+            this.label167 = new System.Windows.Forms.Label();
+            this.label168 = new System.Windows.Forms.Label();
+            this.label169 = new System.Windows.Forms.Label();
+            this.label170 = new System.Windows.Forms.Label();
+            this.label171 = new System.Windows.Forms.Label();
+            this.listBoxPostParametersTab4 = new FlickerFreeListBox();
+            this.listBoxPostParametersTab5 = new FlickerFreeListBox();
+            this.listBoxPostParametersTab6 = new FlickerFreeListBox();
+            this.listBoxPostParametersTab7 = new FlickerFreeListBox();
+            this.listBoxPostParametersTab8 = new FlickerFreeListBox();
+            this.listBoxPostParametersTab9 = new FlickerFreeListBox();
             this.tabPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             this.tabPage8.SuspendLayout();
@@ -1231,17 +1241,6 @@
             this.Button_RH_Row10ForeColorText.UseVisualStyleBackColor = false;
             this.Button_RH_Row10ForeColorText.Click += new System.EventHandler(this.Button_RH_Row10ForeColorText_Click);
             // 
-            // listBoxPostParametersTab9
-            // 
-            this.listBoxPostParametersTab9.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listBoxPostParametersTab9.FormattingEnabled = true;
-            this.listBoxPostParametersTab9.Location = new System.Drawing.Point(7, 25);
-            this.listBoxPostParametersTab9.Name = "listBoxPostParametersTab9";
-            this.listBoxPostParametersTab9.Size = new System.Drawing.Size(173, 420);
-            this.listBoxPostParametersTab9.Sorted = true;
-            this.listBoxPostParametersTab9.TabIndex = 408;
-            this.listBoxPostParametersTab9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listBoxPostParametersTab9_MouseDown);
-            // 
             // tabPage8
             // 
             this.tabPage8.Controls.Add(this.checkBox29);
@@ -1912,17 +1911,6 @@
             this.Button_RH_Row7ForeColorText.UseVisualStyleBackColor = false;
             this.Button_RH_Row7ForeColorText.Click += new System.EventHandler(this.Button_RH_Row7ForeColorText_Click);
             // 
-            // listBoxPostParametersTab8
-            // 
-            this.listBoxPostParametersTab8.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listBoxPostParametersTab8.FormattingEnabled = true;
-            this.listBoxPostParametersTab8.Location = new System.Drawing.Point(7, 25);
-            this.listBoxPostParametersTab8.Name = "listBoxPostParametersTab8";
-            this.listBoxPostParametersTab8.Size = new System.Drawing.Size(173, 420);
-            this.listBoxPostParametersTab8.Sorted = true;
-            this.listBoxPostParametersTab8.TabIndex = 346;
-            this.listBoxPostParametersTab8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListBoxPostParametersTab8_MouseDown);
-            // 
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.checkBox26);
@@ -2561,17 +2549,6 @@
             this.Button_RH_Row4ForeColorText.TabIndex = 274;
             this.Button_RH_Row4ForeColorText.UseVisualStyleBackColor = false;
             this.Button_RH_Row4ForeColorText.Click += new System.EventHandler(this.Button_RH_Row4ForeColorText_Click);
-            // 
-            // listBoxPostParametersTab7
-            // 
-            this.listBoxPostParametersTab7.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listBoxPostParametersTab7.FormattingEnabled = true;
-            this.listBoxPostParametersTab7.Location = new System.Drawing.Point(7, 25);
-            this.listBoxPostParametersTab7.Name = "listBoxPostParametersTab7";
-            this.listBoxPostParametersTab7.Size = new System.Drawing.Size(173, 420);
-            this.listBoxPostParametersTab7.Sorted = true;
-            this.listBoxPostParametersTab7.TabIndex = 284;
-            this.listBoxPostParametersTab7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListBoxPostParametersTab7_MouseDown);
             // 
             // tabPage6
             // 
@@ -3243,17 +3220,6 @@
             this.buttonRow10ForeColorText.UseVisualStyleBackColor = false;
             this.buttonRow10ForeColorText.Click += new System.EventHandler(this.ButtonRow10ForeColorText_Click);
             // 
-            // listBoxPostParametersTab6
-            // 
-            this.listBoxPostParametersTab6.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listBoxPostParametersTab6.FormattingEnabled = true;
-            this.listBoxPostParametersTab6.Location = new System.Drawing.Point(7, 25);
-            this.listBoxPostParametersTab6.Name = "listBoxPostParametersTab6";
-            this.listBoxPostParametersTab6.Size = new System.Drawing.Size(173, 420);
-            this.listBoxPostParametersTab6.Sorted = true;
-            this.listBoxPostParametersTab6.TabIndex = 229;
-            this.listBoxPostParametersTab6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListBoxPostParametersTab6_MouseDown);
-            // 
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.checkBox20);
@@ -3924,17 +3890,6 @@
             this.buttonRow7ForeColorText.UseVisualStyleBackColor = false;
             this.buttonRow7ForeColorText.Click += new System.EventHandler(this.ButtonRow7ForeColorText_Click);
             // 
-            // listBoxPostParametersTab5
-            // 
-            this.listBoxPostParametersTab5.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listBoxPostParametersTab5.FormattingEnabled = true;
-            this.listBoxPostParametersTab5.Location = new System.Drawing.Point(7, 25);
-            this.listBoxPostParametersTab5.Name = "listBoxPostParametersTab5";
-            this.listBoxPostParametersTab5.Size = new System.Drawing.Size(173, 420);
-            this.listBoxPostParametersTab5.Sorted = true;
-            this.listBoxPostParametersTab5.TabIndex = 171;
-            this.listBoxPostParametersTab5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListBoxPostParametersTab5_MouseDown);
-            // 
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.checkBox17);
@@ -4573,17 +4528,6 @@
             this.buttonRow4ForeColorText.TabIndex = 103;
             this.buttonRow4ForeColorText.UseVisualStyleBackColor = false;
             this.buttonRow4ForeColorText.Click += new System.EventHandler(this.ButtonRow4ForeColor_Click);
-            // 
-            // listBoxPostParametersTab4
-            // 
-            this.listBoxPostParametersTab4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listBoxPostParametersTab4.FormattingEnabled = true;
-            this.listBoxPostParametersTab4.Location = new System.Drawing.Point(7, 25);
-            this.listBoxPostParametersTab4.Name = "listBoxPostParametersTab4";
-            this.listBoxPostParametersTab4.Size = new System.Drawing.Size(173, 420);
-            this.listBoxPostParametersTab4.Sorted = true;
-            this.listBoxPostParametersTab4.TabIndex = 113;
-            this.listBoxPostParametersTab4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListBoxPostParametersTab4_MouseDown);
             // 
             // tabPage3
             // 
@@ -5399,15 +5343,13 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.label171);
             this.splitContainer1.Panel1.Controls.Add(this.listBoxPostParameters);
             this.splitContainer1.Panel1.Controls.Add(this.label153);
             this.splitContainer1.Panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.label157);
-            this.splitContainer1.Panel2.Controls.Add(this.label156);
-            this.splitContainer1.Panel2.Controls.Add(this.label155);
             this.splitContainer1.Panel2.Controls.Add(this.label154);
             this.splitContainer1.Panel2.Controls.Add(this.tableLayoutPanel1);
             this.splitContainer1.Panel2.DragDrop += new System.Windows.Forms.DragEventHandler(this.ANYTextBox_DragDrop);
@@ -5421,7 +5363,7 @@
             // listBoxPostParameters
             // 
             this.listBoxPostParameters.FormattingEnabled = true;
-            this.listBoxPostParameters.Location = new System.Drawing.Point(4, 26);
+            this.listBoxPostParameters.Location = new System.Drawing.Point(10, 41);
             this.listBoxPostParameters.Name = "listBoxPostParameters";
             this.listBoxPostParameters.Size = new System.Drawing.Size(229, 472);
             this.listBoxPostParameters.Sorted = true;
@@ -5431,44 +5373,22 @@
             // label153
             // 
             this.label153.AutoSize = true;
-            this.label153.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label153.Location = new System.Drawing.Point(78, 6);
+            this.label153.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label153.Location = new System.Drawing.Point(77, 15);
             this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(70, 13);
+            this.label153.Size = new System.Drawing.Size(88, 16);
             this.label153.TabIndex = 454;
             this.label153.Text = "Parameters";
-            // 
-            // label157
-            // 
-            this.label157.AutoSize = true;
-            this.label157.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label157.Location = new System.Drawing.Point(843, 97);
-            this.label157.Name = "label157";
-            this.label157.Size = new System.Drawing.Size(111, 20);
-            this.label157.TabIndex = 93;
-            this.label157.Text = "Row 3 Header";
-            this.label157.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
-            // 
-            // label156
-            // 
-            this.label156.AutoSize = true;
-            this.label156.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label156.Location = new System.Drawing.Point(843, 63);
-            this.label156.Name = "label156";
-            this.label156.Size = new System.Drawing.Size(111, 20);
-            this.label156.TabIndex = 92;
-            this.label156.Text = "Row 2 Header";
-            this.label156.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
             // 
             // label155
             // 
             this.label155.AutoSize = true;
-            this.label155.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label155.Location = new System.Drawing.Point(843, 26);
+            this.label155.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label155.Location = new System.Drawing.Point(4, 1);
             this.label155.Name = "label155";
-            this.label155.Size = new System.Drawing.Size(111, 20);
+            this.label155.Size = new System.Drawing.Size(77, 13);
             this.label155.TabIndex = 91;
-            this.label155.Text = "Row 1 Header";
+            this.label155.Text = "Header Row";
             this.label155.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
             // 
             // label154
@@ -5490,78 +5410,90 @@
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.AutoSize = true;
             this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow12RightSideParameters, 3, 11);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow12LeftSideParameters, 1, 11);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow12LeftSide, 0, 11);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow11RightSideParameters, 3, 10);
-            this.tableLayoutPanel1.Controls.Add(this.label161, 3, 12);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 2, 13);
-            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow11RightSide, 2, 10);
-            this.tableLayoutPanel1.Controls.Add(this.label159, 2, 12);
-            this.tableLayoutPanel1.Controls.Add(this.label160, 1, 12);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow11LeftSideParameters, 1, 10);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow11LeftSide, 0, 10);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 13);
-            this.tableLayoutPanel1.Controls.Add(this.label158, 0, 12);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow10RightSideParameters, 3, 9);
-            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow10RightSide, 2, 9);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow10LeftSideParameters, 1, 9);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow10LeftSide, 0, 9);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow9RightSideParameters, 3, 8);
-            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow9RightSide, 2, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow9LeftSideParameters, 1, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow9LeftSide, 0, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow8RightSideParameters, 3, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow8LeftSideParameters, 1, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow8LeftSide, 0, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow7RightSideParameters, 3, 6);
-            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow7RightSide, 2, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow7LeftSideParameters, 1, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow7LeftSide, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.OperationsHeaderRow3, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.OperationsHeaderRow1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.OperationsHeaderRow2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow4LeftSide, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow5LeftSide, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow6LeftSide, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow4RightSide, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow5RightSide, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow6RightSide, 2, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow4LeftSideParameters, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow5LeftSideParameters, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow6LeftSideParameters, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow4RightSideParameters, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow5RightSideParameters, 3, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBoxRow6RightSideParameters, 3, 5);
-            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow12RightSide, 2, 7);
-            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow8RightSide, 2, 11);
+            this.tableLayoutPanel1.ColumnCount = 5;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.25F));
+            this.tableLayoutPanel1.Controls.Add(this.label170, 0, 11);
+            this.tableLayoutPanel1.Controls.Add(this.label169, 0, 10);
+            this.tableLayoutPanel1.Controls.Add(this.label168, 0, 9);
+            this.tableLayoutPanel1.Controls.Add(this.label167, 0, 8);
+            this.tableLayoutPanel1.Controls.Add(this.label166, 0, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label165, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label164, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label163, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label162, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label157, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label156, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow12RightSideParameters, 4, 11);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow12LeftSideParameters, 2, 11);
+            this.tableLayoutPanel1.Controls.Add(this.label155, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow12LeftSide, 1, 11);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow11RightSideParameters, 4, 10);
+            this.tableLayoutPanel1.Controls.Add(this.label161, 4, 12);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 3, 13);
+            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow11RightSide, 3, 10);
+            this.tableLayoutPanel1.Controls.Add(this.label159, 3, 12);
+            this.tableLayoutPanel1.Controls.Add(this.label160, 2, 12);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow11LeftSideParameters, 2, 10);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow11LeftSide, 1, 10);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 13);
+            this.tableLayoutPanel1.Controls.Add(this.label158, 1, 12);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow10RightSideParameters, 4, 9);
+            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow10RightSide, 3, 9);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow10LeftSideParameters, 2, 9);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow10LeftSide, 1, 9);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow9RightSideParameters, 4, 8);
+            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow9RightSide, 3, 8);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow9LeftSideParameters, 2, 8);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow9LeftSide, 1, 8);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow8RightSideParameters, 4, 7);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow8LeftSideParameters, 2, 7);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow8LeftSide, 1, 7);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow7RightSideParameters, 4, 6);
+            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow7RightSide, 3, 6);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow7LeftSideParameters, 2, 6);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow7LeftSide, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.OperationsHeaderRow3, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.OperationsHeaderRow1, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.OperationsHeaderRow2, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow4LeftSide, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow5LeftSide, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow6LeftSide, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow4RightSide, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow5RightSide, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow6RightSide, 3, 5);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow4LeftSideParameters, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow5LeftSideParameters, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow6LeftSideParameters, 2, 5);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow4RightSideParameters, 4, 3);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow5RightSideParameters, 4, 4);
+            this.tableLayoutPanel1.Controls.Add(this.textBoxRow6RightSideParameters, 4, 5);
+            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow12RightSide, 3, 7);
+            this.tableLayoutPanel1.Controls.Add(this.TextBoxRow8RightSide, 3, 11);
             this.tableLayoutPanel1.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(16, 15);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(19, 15);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 14;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142856F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(817, 491);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(817, 506);
             this.tableLayoutPanel1.TabIndex = 0;
             this.tableLayoutPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
             // 
@@ -5569,7 +5501,7 @@
             // 
             this.textBoxRow12RightSideParameters.AllowDrop = true;
             this.textBoxRow12RightSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row12_RH_BackColorParameters;
-            this.textBoxRow12RightSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow12RightSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow12RightSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow12RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row12_RH_TextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow12RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row12_RH_BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -5578,10 +5510,10 @@
             this.textBoxRow12RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow12TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow12RightSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow12RightSideParameters;
             this.textBoxRow12RightSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_12thRowParameters;
-            this.textBoxRow12RightSideParameters.Location = new System.Drawing.Point(616, 389);
+            this.textBoxRow12RightSideParameters.Location = new System.Drawing.Point(645, 400);
             this.textBoxRow12RightSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow12RightSideParameters.Name = "textBoxRow12RightSideParameters";
-            this.textBoxRow12RightSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow12RightSideParameters.Size = new System.Drawing.Size(168, 20);
             this.textBoxRow12RightSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow12RightSideParameters.TabIndex = 434;
             this.textBoxRow12RightSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row12_RH_TextParameters;
@@ -5594,7 +5526,7 @@
             // 
             this.textBoxRow12LeftSideParameters.AllowDrop = true;
             this.textBoxRow12LeftSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row12BackColorParameters;
-            this.textBoxRow12LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow12LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow12LeftSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow12LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row12LeftSideTextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow12LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row12BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -5603,10 +5535,10 @@
             this.textBoxRow12LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow12TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow12LeftSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow12LeftSideParameters;
             this.textBoxRow12LeftSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor12thRowParameters;
-            this.textBoxRow12LeftSideParameters.Location = new System.Drawing.Point(208, 389);
+            this.textBoxRow12LeftSideParameters.Location = new System.Drawing.Point(299, 400);
             this.textBoxRow12LeftSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow12LeftSideParameters.Name = "textBoxRow12LeftSideParameters";
-            this.textBoxRow12LeftSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow12LeftSideParameters.Size = new System.Drawing.Size(155, 20);
             this.textBoxRow12LeftSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow12LeftSideParameters.TabIndex = 432;
             this.textBoxRow12LeftSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row12LeftSideTextParameters;
@@ -5619,7 +5551,7 @@
             // 
             this.textBoxRow12LeftSide.AllowDrop = true;
             this.textBoxRow12LeftSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row12BackColor;
-            this.textBoxRow12LeftSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow12LeftSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow12LeftSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow12LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row12Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow12LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row12BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -5628,10 +5560,10 @@
             this.textBoxRow12LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow12TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow12LeftSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow12LeftSide;
             this.textBoxRow12LeftSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor12thHeaderRow;
-            this.textBoxRow12LeftSide.Location = new System.Drawing.Point(4, 389);
+            this.textBoxRow12LeftSide.Location = new System.Drawing.Point(126, 400);
             this.textBoxRow12LeftSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow12LeftSide.Name = "textBoxRow12LeftSide";
-            this.textBoxRow12LeftSide.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow12LeftSide.Size = new System.Drawing.Size(166, 20);
             this.textBoxRow12LeftSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow12LeftSide.TabIndex = 431;
             this.textBoxRow12LeftSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row12Text;
@@ -5644,7 +5576,7 @@
             // 
             this.textBoxRow11RightSideParameters.AllowDrop = true;
             this.textBoxRow11RightSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row11_RH_BackColorParameters;
-            this.textBoxRow11RightSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow11RightSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow11RightSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow11RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row11_RH_TextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow11RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow11RightSideParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -5653,11 +5585,11 @@
             this.textBoxRow11RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow11TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow11RightSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow11RightSideParameters;
             this.textBoxRow11RightSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_11thRowParameters;
-            this.textBoxRow11RightSideParameters.Location = new System.Drawing.Point(616, 354);
+            this.textBoxRow11RightSideParameters.Location = new System.Drawing.Point(645, 364);
             this.textBoxRow11RightSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow11RightSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow11RightSideParameters.Name = "textBoxRow11RightSideParameters";
-            this.textBoxRow11RightSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow11RightSideParameters.Size = new System.Drawing.Size(168, 20);
             this.textBoxRow11RightSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow11RightSideParameters.TabIndex = 430;
             this.textBoxRow11RightSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row11_RH_TextParameters;
@@ -5674,9 +5606,9 @@
             this.label161.AutoSize = true;
             this.label161.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label161.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label161.Location = new System.Drawing.Point(616, 421);
+            this.label161.Location = new System.Drawing.Point(645, 433);
             this.label161.Name = "label161";
-            this.label161.Size = new System.Drawing.Size(197, 34);
+            this.label161.Size = new System.Drawing.Size(168, 35);
             this.label161.TabIndex = 97;
             this.label161.Text = "<Parameter(s)>";
             this.label161.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5689,17 +5621,17 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.Controls.Add(this.numericUpDown4, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.label82, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(412, 459);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(472, 472);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(197, 21);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(147, 21);
             this.tableLayoutPanel3.TabIndex = 436;
             // 
             // numericUpDown4
             // 
             this.numericUpDown4.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CAM_Setup_Sheets.Properties.Settings.Default, "NumberOf_RH_ColumnsToMergeRows4to6", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.numericUpDown4.Location = new System.Drawing.Point(149, 3);
+            this.numericUpDown4.Location = new System.Drawing.Point(109, 3);
             this.numericUpDown4.Maximum = new decimal(new int[] {
             10,
             0,
@@ -5711,7 +5643,7 @@
             0,
             0});
             this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(52, 20);
+            this.numericUpDown4.Size = new System.Drawing.Size(40, 20);
             this.numericUpDown4.TabIndex = 323;
             this.numericUpDown4.Value = global::CAM_Setup_Sheets.Properties.Settings.Default.NumberOf_RH_ColumnsToMergeRows4to6;
             this.numericUpDown4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
@@ -5725,9 +5657,9 @@
             this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label82.Location = new System.Drawing.Point(3, 0);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(140, 21);
+            this.label82.Size = new System.Drawing.Size(100, 21);
             this.label82.TabIndex = 324;
-            this.label82.Text = "# Of columns to merge";
+            this.label82.Text = "Merge columns";
             this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label82.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
             // 
@@ -5735,7 +5667,7 @@
             // 
             this.TextBoxRow11RightSide.AllowDrop = true;
             this.TextBoxRow11RightSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row11_RH_BackColor;
-            this.TextBoxRow11RightSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.TextBoxRow11RightSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.TextBoxRow11RightSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextBoxRow11RightSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row11_RH_Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow11RightSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row11_RH_BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -5744,11 +5676,11 @@
             this.TextBoxRow11RightSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow11TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow11RightSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow11RightSide;
             this.TextBoxRow11RightSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_11thHeaderRow;
-            this.TextBoxRow11RightSide.Location = new System.Drawing.Point(412, 354);
+            this.TextBoxRow11RightSide.Location = new System.Drawing.Point(472, 364);
             this.TextBoxRow11RightSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.TextBoxRow11RightSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.TextBoxRow11RightSide.Name = "TextBoxRow11RightSide";
-            this.TextBoxRow11RightSide.Size = new System.Drawing.Size(197, 20);
+            this.TextBoxRow11RightSide.Size = new System.Drawing.Size(147, 20);
             this.TextBoxRow11RightSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.TextBoxRow11RightSide.TabIndex = 428;
             this.TextBoxRow11RightSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row11_RH_Text;
@@ -5765,9 +5697,9 @@
             this.label159.AutoSize = true;
             this.label159.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label159.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label159.Location = new System.Drawing.Point(412, 421);
+            this.label159.Location = new System.Drawing.Point(472, 433);
             this.label159.Name = "label159";
-            this.label159.Size = new System.Drawing.Size(197, 34);
+            this.label159.Size = new System.Drawing.Size(166, 35);
             this.label159.TabIndex = 95;
             this.label159.Text = "Header Text";
             this.label159.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5781,9 +5713,9 @@
             this.label160.AutoSize = true;
             this.label160.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label160.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label160.Location = new System.Drawing.Point(208, 421);
+            this.label160.Location = new System.Drawing.Point(299, 433);
             this.label160.Name = "label160";
-            this.label160.Size = new System.Drawing.Size(197, 34);
+            this.label160.Size = new System.Drawing.Size(166, 35);
             this.label160.TabIndex = 96;
             this.label160.Text = "<Parameter(s)>";
             this.label160.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5793,7 +5725,7 @@
             // 
             this.textBoxRow11LeftSideParameters.AllowDrop = true;
             this.textBoxRow11LeftSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row11BackColorParameters;
-            this.textBoxRow11LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow11LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow11LeftSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow11LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row11LeftSideTextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow11LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row11BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -5802,11 +5734,11 @@
             this.textBoxRow11LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow11TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow11LeftSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow11LeftSideParameters;
             this.textBoxRow11LeftSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor11thRowParameters;
-            this.textBoxRow11LeftSideParameters.Location = new System.Drawing.Point(208, 354);
+            this.textBoxRow11LeftSideParameters.Location = new System.Drawing.Point(299, 364);
             this.textBoxRow11LeftSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow11LeftSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow11LeftSideParameters.Name = "textBoxRow11LeftSideParameters";
-            this.textBoxRow11LeftSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow11LeftSideParameters.Size = new System.Drawing.Size(155, 20);
             this.textBoxRow11LeftSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow11LeftSideParameters.TabIndex = 427;
             this.textBoxRow11LeftSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row11LeftSideTextParameters;
@@ -5819,7 +5751,7 @@
             // 
             this.textBoxRow11LeftSide.AllowDrop = true;
             this.textBoxRow11LeftSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row11BackColor;
-            this.textBoxRow11LeftSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow11LeftSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow11LeftSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow11LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row11Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow11LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row11BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -5828,11 +5760,11 @@
             this.textBoxRow11LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow11TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow11LeftSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow11LeftSide;
             this.textBoxRow11LeftSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor11thHeaderRow;
-            this.textBoxRow11LeftSide.Location = new System.Drawing.Point(4, 354);
+            this.textBoxRow11LeftSide.Location = new System.Drawing.Point(126, 364);
             this.textBoxRow11LeftSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow11LeftSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow11LeftSide.Name = "textBoxRow11LeftSide";
-            this.textBoxRow11LeftSide.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow11LeftSide.Size = new System.Drawing.Size(166, 20);
             this.textBoxRow11LeftSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow11LeftSide.TabIndex = 426;
             this.textBoxRow11LeftSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row11Text;
@@ -5848,17 +5780,17 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel2.Controls.Add(this.numericUpDown1, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.label35, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 459);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(126, 472);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(197, 21);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(166, 21);
             this.tableLayoutPanel2.TabIndex = 435;
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::CAM_Setup_Sheets.Properties.Settings.Default, "NumberOfColumnsToMergeRows3to6", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.numericUpDown1.Location = new System.Drawing.Point(149, 3);
+            this.numericUpDown1.Location = new System.Drawing.Point(109, 3);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             10,
             0,
@@ -5870,7 +5802,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(52, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(40, 20);
             this.numericUpDown1.TabIndex = 153;
             this.numericUpDown1.Value = global::CAM_Setup_Sheets.Properties.Settings.Default.NumberOfColumnsToMergeRows3to6;
             this.numericUpDown1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
@@ -5884,9 +5816,9 @@
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.Location = new System.Drawing.Point(3, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(140, 21);
+            this.label35.Size = new System.Drawing.Size(100, 21);
             this.label35.TabIndex = 154;
-            this.label35.Text = "# Of columns to merge";
+            this.label35.Text = "Merge columns";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label35.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
             // 
@@ -5898,9 +5830,9 @@
             this.label158.AutoSize = true;
             this.label158.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label158.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label158.Location = new System.Drawing.Point(4, 421);
+            this.label158.Location = new System.Drawing.Point(126, 433);
             this.label158.Name = "label158";
-            this.label158.Size = new System.Drawing.Size(197, 34);
+            this.label158.Size = new System.Drawing.Size(166, 35);
             this.label158.TabIndex = 94;
             this.label158.Text = "Header Text";
             this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5910,7 +5842,7 @@
             // 
             this.textBoxRow10RightSideParameters.AllowDrop = true;
             this.textBoxRow10RightSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row10_RH_BackColorParameters;
-            this.textBoxRow10RightSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow10RightSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow10RightSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow10RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row10_RH_TextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow10RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row10_RH_BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -5919,11 +5851,11 @@
             this.textBoxRow10RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow10TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow10RightSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow10RightSideParameters;
             this.textBoxRow10RightSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_10thRowParameters;
-            this.textBoxRow10RightSideParameters.Location = new System.Drawing.Point(616, 319);
+            this.textBoxRow10RightSideParameters.Location = new System.Drawing.Point(645, 328);
             this.textBoxRow10RightSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow10RightSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow10RightSideParameters.Name = "textBoxRow10RightSideParameters";
-            this.textBoxRow10RightSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow10RightSideParameters.Size = new System.Drawing.Size(168, 20);
             this.textBoxRow10RightSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow10RightSideParameters.TabIndex = 425;
             this.textBoxRow10RightSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row10_RH_TextParameters;
@@ -5936,7 +5868,7 @@
             // 
             this.TextBoxRow10RightSide.AllowDrop = true;
             this.TextBoxRow10RightSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row10_RH_BackColor;
-            this.TextBoxRow10RightSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.TextBoxRow10RightSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.TextBoxRow10RightSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextBoxRow10RightSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row10_RH_Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow10RightSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row10_RH_BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -5945,11 +5877,11 @@
             this.TextBoxRow10RightSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow10TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow10RightSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow10RightSide;
             this.TextBoxRow10RightSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_10thHeaderRow;
-            this.TextBoxRow10RightSide.Location = new System.Drawing.Point(412, 319);
+            this.TextBoxRow10RightSide.Location = new System.Drawing.Point(472, 328);
             this.TextBoxRow10RightSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.TextBoxRow10RightSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.TextBoxRow10RightSide.Name = "TextBoxRow10RightSide";
-            this.TextBoxRow10RightSide.Size = new System.Drawing.Size(197, 20);
+            this.TextBoxRow10RightSide.Size = new System.Drawing.Size(147, 20);
             this.TextBoxRow10RightSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.TextBoxRow10RightSide.TabIndex = 395;
             this.TextBoxRow10RightSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row10_RH_Text;
@@ -5962,7 +5894,7 @@
             // 
             this.textBoxRow10LeftSideParameters.AllowDrop = true;
             this.textBoxRow10LeftSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row10BackColorParameters;
-            this.textBoxRow10LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow10LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow10LeftSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow10LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row10LeftSideTextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow10LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row10BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -5971,11 +5903,11 @@
             this.textBoxRow10LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow10TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow10LeftSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow10LeftSideParameters;
             this.textBoxRow10LeftSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor10thRowParameters;
-            this.textBoxRow10LeftSideParameters.Location = new System.Drawing.Point(208, 319);
+            this.textBoxRow10LeftSideParameters.Location = new System.Drawing.Point(299, 328);
             this.textBoxRow10LeftSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow10LeftSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow10LeftSideParameters.Name = "textBoxRow10LeftSideParameters";
-            this.textBoxRow10LeftSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow10LeftSideParameters.Size = new System.Drawing.Size(155, 20);
             this.textBoxRow10LeftSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow10LeftSideParameters.TabIndex = 374;
             this.textBoxRow10LeftSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row10LeftSideTextParameters;
@@ -5988,7 +5920,7 @@
             // 
             this.textBoxRow10LeftSide.AllowDrop = true;
             this.textBoxRow10LeftSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row10BackColor;
-            this.textBoxRow10LeftSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow10LeftSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow10LeftSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow10LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row10Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow10LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row10BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -5997,11 +5929,11 @@
             this.textBoxRow10LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow10TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow10LeftSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow10LeftSide;
             this.textBoxRow10LeftSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor10thHeaderRow;
-            this.textBoxRow10LeftSide.Location = new System.Drawing.Point(4, 319);
+            this.textBoxRow10LeftSide.Location = new System.Drawing.Point(126, 328);
             this.textBoxRow10LeftSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow10LeftSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow10LeftSide.Name = "textBoxRow10LeftSide";
-            this.textBoxRow10LeftSide.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow10LeftSide.Size = new System.Drawing.Size(166, 20);
             this.textBoxRow10LeftSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow10LeftSide.TabIndex = 373;
             this.textBoxRow10LeftSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row10Text;
@@ -6014,7 +5946,7 @@
             // 
             this.textBoxRow9RightSideParameters.AllowDrop = true;
             this.textBoxRow9RightSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row9_RH_BackColorParameters;
-            this.textBoxRow9RightSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow9RightSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow9RightSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow9RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row9_RH_TextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow9RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row9_RH_BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6023,10 +5955,10 @@
             this.textBoxRow9RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow9TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow9RightSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow9RightSideParameters;
             this.textBoxRow9RightSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_9thRowParameters;
-            this.textBoxRow9RightSideParameters.Location = new System.Drawing.Point(616, 284);
+            this.textBoxRow9RightSideParameters.Location = new System.Drawing.Point(645, 292);
             this.textBoxRow9RightSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow9RightSideParameters.Name = "textBoxRow9RightSideParameters";
-            this.textBoxRow9RightSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow9RightSideParameters.Size = new System.Drawing.Size(168, 20);
             this.textBoxRow9RightSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow9RightSideParameters.TabIndex = 372;
             this.textBoxRow9RightSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row9_RH_TextParameters;
@@ -6039,7 +5971,7 @@
             // 
             this.TextBoxRow9RightSide.AllowDrop = true;
             this.TextBoxRow9RightSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row9_RH_BackColor;
-            this.TextBoxRow9RightSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.TextBoxRow9RightSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.TextBoxRow9RightSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextBoxRow9RightSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row9_RH_Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow9RightSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row9_RH_BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6048,10 +5980,10 @@
             this.TextBoxRow9RightSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow9TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow9RightSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow9RightSide;
             this.TextBoxRow9RightSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_9thHeaderRow;
-            this.TextBoxRow9RightSide.Location = new System.Drawing.Point(412, 284);
+            this.TextBoxRow9RightSide.Location = new System.Drawing.Point(472, 292);
             this.TextBoxRow9RightSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.TextBoxRow9RightSide.Name = "TextBoxRow9RightSide";
-            this.TextBoxRow9RightSide.Size = new System.Drawing.Size(197, 20);
+            this.TextBoxRow9RightSide.Size = new System.Drawing.Size(147, 20);
             this.TextBoxRow9RightSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.TextBoxRow9RightSide.TabIndex = 371;
             this.TextBoxRow9RightSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row9_RH_Text;
@@ -6064,7 +5996,7 @@
             // 
             this.textBoxRow9LeftSideParameters.AllowDrop = true;
             this.textBoxRow9LeftSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row9BackColorParameters;
-            this.textBoxRow9LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow9LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow9LeftSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow9LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row9LeftSideTextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow9LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row9BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6073,10 +6005,10 @@
             this.textBoxRow9LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow9TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow9LeftSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow9LeftSideParameters;
             this.textBoxRow9LeftSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor9thRowParameters;
-            this.textBoxRow9LeftSideParameters.Location = new System.Drawing.Point(208, 284);
+            this.textBoxRow9LeftSideParameters.Location = new System.Drawing.Point(299, 292);
             this.textBoxRow9LeftSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow9LeftSideParameters.Name = "textBoxRow9LeftSideParameters";
-            this.textBoxRow9LeftSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow9LeftSideParameters.Size = new System.Drawing.Size(155, 20);
             this.textBoxRow9LeftSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow9LeftSideParameters.TabIndex = 370;
             this.textBoxRow9LeftSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row9LeftSideTextParameters;
@@ -6089,7 +6021,7 @@
             // 
             this.textBoxRow9LeftSide.AllowDrop = true;
             this.textBoxRow9LeftSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row9BackColor;
-            this.textBoxRow9LeftSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow9LeftSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow9LeftSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow9LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row9Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow9LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row9BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6098,10 +6030,10 @@
             this.textBoxRow9LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow9TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow9LeftSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow9LeftSide;
             this.textBoxRow9LeftSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor9thHeaderRow;
-            this.textBoxRow9LeftSide.Location = new System.Drawing.Point(4, 284);
+            this.textBoxRow9LeftSide.Location = new System.Drawing.Point(126, 292);
             this.textBoxRow9LeftSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow9LeftSide.Name = "textBoxRow9LeftSide";
-            this.textBoxRow9LeftSide.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow9LeftSide.Size = new System.Drawing.Size(166, 20);
             this.textBoxRow9LeftSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow9LeftSide.TabIndex = 369;
             this.textBoxRow9LeftSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row9Text;
@@ -6114,7 +6046,7 @@
             // 
             this.textBoxRow8RightSideParameters.AllowDrop = true;
             this.textBoxRow8RightSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row8_RH_BackColorParameters;
-            this.textBoxRow8RightSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow8RightSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow8RightSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow8RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row8_RH_TextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow8RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row8_RH_BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6123,11 +6055,11 @@
             this.textBoxRow8RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow8TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow8RightSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow8RightSideParameters;
             this.textBoxRow8RightSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_8thRowParameters;
-            this.textBoxRow8RightSideParameters.Location = new System.Drawing.Point(616, 249);
+            this.textBoxRow8RightSideParameters.Location = new System.Drawing.Point(645, 256);
             this.textBoxRow8RightSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow8RightSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow8RightSideParameters.Name = "textBoxRow8RightSideParameters";
-            this.textBoxRow8RightSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow8RightSideParameters.Size = new System.Drawing.Size(168, 20);
             this.textBoxRow8RightSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow8RightSideParameters.TabIndex = 368;
             this.textBoxRow8RightSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row8_RH_TextParameters;
@@ -6140,7 +6072,7 @@
             // 
             this.textBoxRow8LeftSideParameters.AllowDrop = true;
             this.textBoxRow8LeftSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row8BackColorParameters;
-            this.textBoxRow8LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow8LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow8LeftSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow8LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row8BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow8LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow8LeftSideParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6149,11 +6081,11 @@
             this.textBoxRow8LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow8TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow8LeftSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow8LeftSideParameters;
             this.textBoxRow8LeftSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor8thRowParameters;
-            this.textBoxRow8LeftSideParameters.Location = new System.Drawing.Point(208, 249);
+            this.textBoxRow8LeftSideParameters.Location = new System.Drawing.Point(299, 256);
             this.textBoxRow8LeftSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow8LeftSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow8LeftSideParameters.Name = "textBoxRow8LeftSideParameters";
-            this.textBoxRow8LeftSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow8LeftSideParameters.Size = new System.Drawing.Size(155, 20);
             this.textBoxRow8LeftSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow8LeftSideParameters.TabIndex = 365;
             this.textBoxRow8LeftSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row8LeftSideTextParameters;
@@ -6166,7 +6098,7 @@
             // 
             this.textBoxRow8LeftSide.AllowDrop = true;
             this.textBoxRow8LeftSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row8BackColor;
-            this.textBoxRow8LeftSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow8LeftSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow8LeftSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow8LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row8Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow8LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row8BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6175,11 +6107,11 @@
             this.textBoxRow8LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow8TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow8LeftSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow8LeftSide;
             this.textBoxRow8LeftSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor8thHeaderRow;
-            this.textBoxRow8LeftSide.Location = new System.Drawing.Point(4, 249);
+            this.textBoxRow8LeftSide.Location = new System.Drawing.Point(126, 256);
             this.textBoxRow8LeftSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow8LeftSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow8LeftSide.Name = "textBoxRow8LeftSide";
-            this.textBoxRow8LeftSide.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow8LeftSide.Size = new System.Drawing.Size(166, 20);
             this.textBoxRow8LeftSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow8LeftSide.TabIndex = 364;
             this.textBoxRow8LeftSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row8Text;
@@ -6192,7 +6124,7 @@
             // 
             this.textBoxRow7RightSideParameters.AllowDrop = true;
             this.textBoxRow7RightSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row7_RH_BackColorParameters;
-            this.textBoxRow7RightSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow7RightSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow7RightSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow7RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row7_RH_TextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow7RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row7_RH_BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6201,11 +6133,11 @@
             this.textBoxRow7RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow7TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow7RightSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow7RightSideParameters;
             this.textBoxRow7RightSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_7thRowParameters;
-            this.textBoxRow7RightSideParameters.Location = new System.Drawing.Point(616, 214);
+            this.textBoxRow7RightSideParameters.Location = new System.Drawing.Point(645, 220);
             this.textBoxRow7RightSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow7RightSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow7RightSideParameters.Name = "textBoxRow7RightSideParameters";
-            this.textBoxRow7RightSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow7RightSideParameters.Size = new System.Drawing.Size(168, 20);
             this.textBoxRow7RightSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow7RightSideParameters.TabIndex = 363;
             this.textBoxRow7RightSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row7_RH_TextParameters;
@@ -6218,7 +6150,7 @@
             // 
             this.TextBoxRow7RightSide.AllowDrop = true;
             this.TextBoxRow7RightSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row7_RH_BackColor;
-            this.TextBoxRow7RightSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.TextBoxRow7RightSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.TextBoxRow7RightSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextBoxRow7RightSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row7_RH_Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow7RightSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row7_RH_BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6227,11 +6159,11 @@
             this.TextBoxRow7RightSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow7TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow7RightSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow7RightSide;
             this.TextBoxRow7RightSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_7thHeaderRow;
-            this.TextBoxRow7RightSide.Location = new System.Drawing.Point(412, 214);
+            this.TextBoxRow7RightSide.Location = new System.Drawing.Point(472, 220);
             this.TextBoxRow7RightSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.TextBoxRow7RightSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.TextBoxRow7RightSide.Name = "TextBoxRow7RightSide";
-            this.TextBoxRow7RightSide.Size = new System.Drawing.Size(197, 20);
+            this.TextBoxRow7RightSide.Size = new System.Drawing.Size(147, 20);
             this.TextBoxRow7RightSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.TextBoxRow7RightSide.TabIndex = 333;
             this.TextBoxRow7RightSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row7_RH_Text;
@@ -6244,7 +6176,7 @@
             // 
             this.textBoxRow7LeftSideParameters.AllowDrop = true;
             this.textBoxRow7LeftSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row7BackColorParameters;
-            this.textBoxRow7LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow7LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow7LeftSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow7LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row7BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow7LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow7LeftSideParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6253,11 +6185,11 @@
             this.textBoxRow7LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow7TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow7LeftSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow7LeftSideParameters;
             this.textBoxRow7LeftSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor7thRowParameters;
-            this.textBoxRow7LeftSideParameters.Location = new System.Drawing.Point(208, 214);
+            this.textBoxRow7LeftSideParameters.Location = new System.Drawing.Point(299, 220);
             this.textBoxRow7LeftSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow7LeftSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow7LeftSideParameters.Name = "textBoxRow7LeftSideParameters";
-            this.textBoxRow7LeftSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow7LeftSideParameters.Size = new System.Drawing.Size(155, 20);
             this.textBoxRow7LeftSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow7LeftSideParameters.TabIndex = 312;
             this.textBoxRow7LeftSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row7LeftSideTextParameters;
@@ -6270,7 +6202,7 @@
             // 
             this.textBoxRow7LeftSide.AllowDrop = true;
             this.textBoxRow7LeftSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row7BackColor;
-            this.textBoxRow7LeftSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow7LeftSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow7LeftSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow7LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row7Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow7LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row7BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6279,11 +6211,11 @@
             this.textBoxRow7LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderLeftRow7TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow7LeftSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow7LeftSide;
             this.textBoxRow7LeftSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor7thHeaderRow;
-            this.textBoxRow7LeftSide.Location = new System.Drawing.Point(4, 214);
+            this.textBoxRow7LeftSide.Location = new System.Drawing.Point(126, 220);
             this.textBoxRow7LeftSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow7LeftSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow7LeftSide.Name = "textBoxRow7LeftSide";
-            this.textBoxRow7LeftSide.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow7LeftSide.Size = new System.Drawing.Size(166, 20);
             this.textBoxRow7LeftSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow7LeftSide.TabIndex = 311;
             this.textBoxRow7LeftSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row7Text;
@@ -6295,8 +6227,11 @@
             // OperationsHeaderRow3
             // 
             this.OperationsHeaderRow3.AllowDrop = true;
+            this.OperationsHeaderRow3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.OperationsHeaderRow3.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row3BackColor;
-            this.OperationsHeaderRow3.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.OperationsHeaderRow3.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.OperationsHeaderRow3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tableLayoutPanel1.SetColumnSpan(this.OperationsHeaderRow3, 4);
             this.OperationsHeaderRow3.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontFor3rdHeaderRow", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6306,10 +6241,10 @@
             this.OperationsHeaderRow3.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRow3TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.OperationsHeaderRow3.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontFor3rdHeaderRow;
             this.OperationsHeaderRow3.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor3rdHeaderRow;
-            this.OperationsHeaderRow3.Location = new System.Drawing.Point(4, 74);
+            this.OperationsHeaderRow3.Location = new System.Drawing.Point(126, 76);
             this.OperationsHeaderRow3.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.OperationsHeaderRow3.Name = "OperationsHeaderRow3";
-            this.OperationsHeaderRow3.Size = new System.Drawing.Size(809, 31);
+            this.OperationsHeaderRow3.Size = new System.Drawing.Size(687, 31);
             this.OperationsHeaderRow3.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.OperationsHeaderRow3.TabIndex = 84;
             this.OperationsHeaderRow3.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row3Text;
@@ -6321,8 +6256,11 @@
             // OperationsHeaderRow1
             // 
             this.OperationsHeaderRow1.AllowDrop = true;
+            this.OperationsHeaderRow1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.OperationsHeaderRow1.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row1BackColor;
-            this.OperationsHeaderRow1.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.OperationsHeaderRow1.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.OperationsHeaderRow1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tableLayoutPanel1.SetColumnSpan(this.OperationsHeaderRow1, 4);
             this.OperationsHeaderRow1.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontFor1stHeaderRow", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6332,12 +6270,12 @@
             this.OperationsHeaderRow1.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRow1TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.OperationsHeaderRow1.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontFor1stHeaderRow;
             this.OperationsHeaderRow1.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor1stHeaderRow;
-            this.OperationsHeaderRow1.Location = new System.Drawing.Point(4, 4);
+            this.OperationsHeaderRow1.Location = new System.Drawing.Point(126, 4);
             this.OperationsHeaderRow1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.OperationsHeaderRow1.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.OperationsHeaderRow1.MinimumSize = new System.Drawing.Size(34, 30);
             this.OperationsHeaderRow1.Name = "OperationsHeaderRow1";
-            this.OperationsHeaderRow1.Size = new System.Drawing.Size(809, 31);
+            this.OperationsHeaderRow1.Size = new System.Drawing.Size(687, 31);
             this.OperationsHeaderRow1.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.OperationsHeaderRow1.TabIndex = 81;
             this.OperationsHeaderRow1.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row1Text;
@@ -6349,8 +6287,11 @@
             // OperationsHeaderRow2
             // 
             this.OperationsHeaderRow2.AllowDrop = true;
+            this.OperationsHeaderRow2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.OperationsHeaderRow2.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row2BackColor;
-            this.OperationsHeaderRow2.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.OperationsHeaderRow2.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.OperationsHeaderRow2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tableLayoutPanel1.SetColumnSpan(this.OperationsHeaderRow2, 4);
             this.OperationsHeaderRow2.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontFor2ndHeaderRow", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6360,11 +6301,11 @@
             this.OperationsHeaderRow2.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRow2TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.OperationsHeaderRow2.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontFor2ndHeaderRow;
             this.OperationsHeaderRow2.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor2ndHeaderRow;
-            this.OperationsHeaderRow2.Location = new System.Drawing.Point(4, 39);
+            this.OperationsHeaderRow2.Location = new System.Drawing.Point(126, 40);
             this.OperationsHeaderRow2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.OperationsHeaderRow2.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.OperationsHeaderRow2.Name = "OperationsHeaderRow2";
-            this.OperationsHeaderRow2.Size = new System.Drawing.Size(809, 31);
+            this.OperationsHeaderRow2.Size = new System.Drawing.Size(687, 31);
             this.OperationsHeaderRow2.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.OperationsHeaderRow2.TabIndex = 80;
             this.OperationsHeaderRow2.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row2Text;
@@ -6377,7 +6318,7 @@
             // 
             this.textBoxRow4LeftSide.AllowDrop = true;
             this.textBoxRow4LeftSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row4BackColor;
-            this.textBoxRow4LeftSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow4LeftSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow4LeftSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow4LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row4Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow4LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow4LeftSide", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6387,12 +6328,12 @@
             this.textBoxRow4LeftSide.FocusBorderColor = System.Drawing.Color.Red;
             this.textBoxRow4LeftSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow4LeftSide;
             this.textBoxRow4LeftSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor4thHeaderRow;
-            this.textBoxRow4LeftSide.Location = new System.Drawing.Point(4, 109);
+            this.textBoxRow4LeftSide.Location = new System.Drawing.Point(126, 112);
             this.textBoxRow4LeftSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow4LeftSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow4LeftSide.MinimumSize = new System.Drawing.Size(14, 10);
             this.textBoxRow4LeftSide.Name = "textBoxRow4LeftSide";
-            this.textBoxRow4LeftSide.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow4LeftSide.Size = new System.Drawing.Size(166, 20);
             this.textBoxRow4LeftSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow4LeftSide.TabIndex = 100;
             this.textBoxRow4LeftSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row4Text;
@@ -6405,7 +6346,7 @@
             // 
             this.textBoxRow5LeftSide.AllowDrop = true;
             this.textBoxRow5LeftSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row5BackColor;
-            this.textBoxRow5LeftSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow5LeftSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow5LeftSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow5LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row5Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow5LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow5LeftSide", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6415,11 +6356,11 @@
             this.textBoxRow5LeftSide.FocusBorderColor = System.Drawing.Color.Red;
             this.textBoxRow5LeftSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow5LeftSide;
             this.textBoxRow5LeftSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor5thHeaderRow;
-            this.textBoxRow5LeftSide.Location = new System.Drawing.Point(4, 144);
+            this.textBoxRow5LeftSide.Location = new System.Drawing.Point(126, 148);
             this.textBoxRow5LeftSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow5LeftSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow5LeftSide.Name = "textBoxRow5LeftSide";
-            this.textBoxRow5LeftSide.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow5LeftSide.Size = new System.Drawing.Size(166, 20);
             this.textBoxRow5LeftSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow5LeftSide.TabIndex = 132;
             this.textBoxRow5LeftSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row5Text;
@@ -6432,7 +6373,7 @@
             // 
             this.textBoxRow6LeftSide.AllowDrop = true;
             this.textBoxRow6LeftSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row6BackColor;
-            this.textBoxRow6LeftSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow6LeftSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow6LeftSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow6LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row6Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow6LeftSide.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow6LeftSide", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6442,10 +6383,10 @@
             this.textBoxRow6LeftSide.FocusBorderColor = System.Drawing.Color.Red;
             this.textBoxRow6LeftSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow6LeftSide;
             this.textBoxRow6LeftSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor6thHeaderRow;
-            this.textBoxRow6LeftSide.Location = new System.Drawing.Point(4, 179);
+            this.textBoxRow6LeftSide.Location = new System.Drawing.Point(126, 184);
             this.textBoxRow6LeftSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow6LeftSide.Name = "textBoxRow6LeftSide";
-            this.textBoxRow6LeftSide.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow6LeftSide.Size = new System.Drawing.Size(166, 20);
             this.textBoxRow6LeftSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow6LeftSide.TabIndex = 137;
             this.textBoxRow6LeftSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row6Text;
@@ -6458,7 +6399,7 @@
             // 
             this.TextBoxRow4RightSide.AllowDrop = true;
             this.TextBoxRow4RightSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row4_RH_BackColor;
-            this.TextBoxRow4RightSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.TextBoxRow4RightSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.TextBoxRow4RightSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextBoxRow4RightSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row4_RH_BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow4RightSide.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow4RightSide", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6467,12 +6408,12 @@
             this.TextBoxRow4RightSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow4TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow4RightSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow4RightSide;
             this.TextBoxRow4RightSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_4thHeaderRow;
-            this.TextBoxRow4RightSide.Location = new System.Drawing.Point(412, 109);
+            this.TextBoxRow4RightSide.Location = new System.Drawing.Point(472, 112);
             this.TextBoxRow4RightSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.TextBoxRow4RightSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.TextBoxRow4RightSide.MinimumSize = new System.Drawing.Size(24, 20);
             this.TextBoxRow4RightSide.Name = "TextBoxRow4RightSide";
-            this.TextBoxRow4RightSide.Size = new System.Drawing.Size(197, 20);
+            this.TextBoxRow4RightSide.Size = new System.Drawing.Size(147, 20);
             this.TextBoxRow4RightSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.TextBoxRow4RightSide.TabIndex = 271;
             this.TextBoxRow4RightSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row4_RH_Text;
@@ -6485,7 +6426,7 @@
             // 
             this.TextBoxRow5RightSide.AllowDrop = true;
             this.TextBoxRow5RightSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row5_RH_BackColor;
-            this.TextBoxRow5RightSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.TextBoxRow5RightSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.TextBoxRow5RightSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextBoxRow5RightSide.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow5RightSide", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow5RightSide.DataBindings.Add(new System.Windows.Forms.Binding("ForeColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextColorFor_RH_5thHeaderRow", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6494,11 +6435,11 @@
             this.TextBoxRow5RightSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow5TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow5RightSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow5RightSide;
             this.TextBoxRow5RightSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_5thHeaderRow;
-            this.TextBoxRow5RightSide.Location = new System.Drawing.Point(412, 144);
+            this.TextBoxRow5RightSide.Location = new System.Drawing.Point(472, 148);
             this.TextBoxRow5RightSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.TextBoxRow5RightSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.TextBoxRow5RightSide.Name = "TextBoxRow5RightSide";
-            this.TextBoxRow5RightSide.Size = new System.Drawing.Size(197, 20);
+            this.TextBoxRow5RightSide.Size = new System.Drawing.Size(147, 20);
             this.TextBoxRow5RightSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.TextBoxRow5RightSide.TabIndex = 302;
             this.TextBoxRow5RightSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row5_RH_Text;
@@ -6511,7 +6452,7 @@
             // 
             this.TextBoxRow6RightSide.AllowDrop = true;
             this.TextBoxRow6RightSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row6_RH_BackColor;
-            this.TextBoxRow6RightSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.TextBoxRow6RightSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.TextBoxRow6RightSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextBoxRow6RightSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row6_RH_BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow6RightSide.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow6RightSide", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6520,10 +6461,10 @@
             this.TextBoxRow6RightSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow6TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow6RightSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow6RightSide;
             this.TextBoxRow6RightSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_6thHeaderRow;
-            this.TextBoxRow6RightSide.Location = new System.Drawing.Point(412, 179);
+            this.TextBoxRow6RightSide.Location = new System.Drawing.Point(472, 184);
             this.TextBoxRow6RightSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.TextBoxRow6RightSide.Name = "TextBoxRow6RightSide";
-            this.TextBoxRow6RightSide.Size = new System.Drawing.Size(197, 20);
+            this.TextBoxRow6RightSide.Size = new System.Drawing.Size(147, 20);
             this.TextBoxRow6RightSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.TextBoxRow6RightSide.TabIndex = 307;
             this.TextBoxRow6RightSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row6_RH_Text;
@@ -6536,7 +6477,7 @@
             // 
             this.textBoxRow4LeftSideParameters.AllowDrop = true;
             this.textBoxRow4LeftSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row4BackColorParameters;
-            this.textBoxRow4LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow4LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow4LeftSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow4LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("ForeColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextColorFor4thRowParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow4LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row4LeftSideTextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6546,11 +6487,11 @@
             this.textBoxRow4LeftSideParameters.FocusBorderColor = System.Drawing.Color.Red;
             this.textBoxRow4LeftSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow4LeftSideParameters;
             this.textBoxRow4LeftSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor4thRowParameters;
-            this.textBoxRow4LeftSideParameters.Location = new System.Drawing.Point(208, 109);
+            this.textBoxRow4LeftSideParameters.Location = new System.Drawing.Point(299, 112);
             this.textBoxRow4LeftSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow4LeftSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow4LeftSideParameters.Name = "textBoxRow4LeftSideParameters";
-            this.textBoxRow4LeftSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow4LeftSideParameters.Size = new System.Drawing.Size(155, 20);
             this.textBoxRow4LeftSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow4LeftSideParameters.TabIndex = 131;
             this.textBoxRow4LeftSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row4LeftSideTextParameters;
@@ -6563,7 +6504,7 @@
             // 
             this.textBoxRow5LeftSideParameters.AllowDrop = true;
             this.textBoxRow5LeftSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row5BackColorParameters;
-            this.textBoxRow5LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow5LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow5LeftSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow5LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row5LeftSideTextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow5LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow5LeftSideParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6573,11 +6514,11 @@
             this.textBoxRow5LeftSideParameters.FocusBorderColor = System.Drawing.Color.Red;
             this.textBoxRow5LeftSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow5LeftSideParameters;
             this.textBoxRow5LeftSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor5thRowParameters;
-            this.textBoxRow5LeftSideParameters.Location = new System.Drawing.Point(208, 144);
+            this.textBoxRow5LeftSideParameters.Location = new System.Drawing.Point(299, 148);
             this.textBoxRow5LeftSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow5LeftSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow5LeftSideParameters.Name = "textBoxRow5LeftSideParameters";
-            this.textBoxRow5LeftSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow5LeftSideParameters.Size = new System.Drawing.Size(155, 20);
             this.textBoxRow5LeftSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow5LeftSideParameters.TabIndex = 136;
             this.textBoxRow5LeftSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row5LeftSideTextParameters;
@@ -6590,7 +6531,7 @@
             // 
             this.textBoxRow6LeftSideParameters.AllowDrop = true;
             this.textBoxRow6LeftSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row6BackColorParameters;
-            this.textBoxRow6LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow6LeftSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow6LeftSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow6LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row6LeftSideTextParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow6LeftSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row6BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6600,10 +6541,10 @@
             this.textBoxRow6LeftSideParameters.FocusBorderColor = System.Drawing.Color.Red;
             this.textBoxRow6LeftSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow6LeftSideParameters;
             this.textBoxRow6LeftSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor6thRowParameters;
-            this.textBoxRow6LeftSideParameters.Location = new System.Drawing.Point(208, 179);
+            this.textBoxRow6LeftSideParameters.Location = new System.Drawing.Point(299, 184);
             this.textBoxRow6LeftSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow6LeftSideParameters.Name = "textBoxRow6LeftSideParameters";
-            this.textBoxRow6LeftSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow6LeftSideParameters.Size = new System.Drawing.Size(155, 20);
             this.textBoxRow6LeftSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow6LeftSideParameters.TabIndex = 140;
             this.textBoxRow6LeftSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row6LeftSideTextParameters;
@@ -6616,7 +6557,7 @@
             // 
             this.textBoxRow4RightSideParameters.AllowDrop = true;
             this.textBoxRow4RightSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row4_RH_BackColorParameters;
-            this.textBoxRow4RightSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow4RightSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow4RightSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow4RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row4_RH_BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow4RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow4RightSideParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6625,11 +6566,11 @@
             this.textBoxRow4RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow4TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow4RightSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow4RightSideParameters;
             this.textBoxRow4RightSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_4thRowParameters;
-            this.textBoxRow4RightSideParameters.Location = new System.Drawing.Point(616, 109);
+            this.textBoxRow4RightSideParameters.Location = new System.Drawing.Point(645, 112);
             this.textBoxRow4RightSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow4RightSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow4RightSideParameters.Name = "textBoxRow4RightSideParameters";
-            this.textBoxRow4RightSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow4RightSideParameters.Size = new System.Drawing.Size(168, 20);
             this.textBoxRow4RightSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow4RightSideParameters.TabIndex = 301;
             this.textBoxRow4RightSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row4_RH_TextParameters;
@@ -6642,7 +6583,7 @@
             // 
             this.textBoxRow5RightSideParameters.AllowDrop = true;
             this.textBoxRow5RightSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row5_RH_BackColorParameters;
-            this.textBoxRow5RightSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow5RightSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow5RightSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow5RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row5_RH_BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow5RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow5RightSideParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6651,11 +6592,11 @@
             this.textBoxRow5RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow5TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow5RightSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow5RightSideParameters;
             this.textBoxRow5RightSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_5thRowParameters;
-            this.textBoxRow5RightSideParameters.Location = new System.Drawing.Point(616, 144);
+            this.textBoxRow5RightSideParameters.Location = new System.Drawing.Point(645, 148);
             this.textBoxRow5RightSideParameters.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.textBoxRow5RightSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow5RightSideParameters.Name = "textBoxRow5RightSideParameters";
-            this.textBoxRow5RightSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow5RightSideParameters.Size = new System.Drawing.Size(168, 20);
             this.textBoxRow5RightSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow5RightSideParameters.TabIndex = 306;
             this.textBoxRow5RightSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row5_RH_TextParameters;
@@ -6668,7 +6609,7 @@
             // 
             this.textBoxRow6RightSideParameters.AllowDrop = true;
             this.textBoxRow6RightSideParameters.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row6_RH_BackColorParameters;
-            this.textBoxRow6RightSideParameters.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.textBoxRow6RightSideParameters.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.textBoxRow6RightSideParameters.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxRow6RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row6_RH_BackColorParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow6RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::CAM_Setup_Sheets.Properties.Settings.Default, "TextFontForRow6RightSideParameters", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6677,10 +6618,10 @@
             this.textBoxRow6RightSideParameters.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow6TextParametersAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBoxRow6RightSideParameters.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow6RightSideParameters;
             this.textBoxRow6RightSideParameters.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_6thRowParameters;
-            this.textBoxRow6RightSideParameters.Location = new System.Drawing.Point(616, 179);
+            this.textBoxRow6RightSideParameters.Location = new System.Drawing.Point(645, 184);
             this.textBoxRow6RightSideParameters.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.textBoxRow6RightSideParameters.Name = "textBoxRow6RightSideParameters";
-            this.textBoxRow6RightSideParameters.Size = new System.Drawing.Size(197, 20);
+            this.textBoxRow6RightSideParameters.Size = new System.Drawing.Size(168, 20);
             this.textBoxRow6RightSideParameters.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.textBoxRow6RightSideParameters.TabIndex = 310;
             this.textBoxRow6RightSideParameters.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row6_RH_TextParameters;
@@ -6693,7 +6634,7 @@
             // 
             this.TextBoxRow12RightSide.AllowDrop = true;
             this.TextBoxRow12RightSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row12_RH_BackColor;
-            this.TextBoxRow12RightSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.TextBoxRow12RightSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.TextBoxRow12RightSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextBoxRow12RightSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row12_RH_Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow12RightSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row12_RH_BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6702,10 +6643,10 @@
             this.TextBoxRow12RightSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow12TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow12RightSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow12RightSide;
             this.TextBoxRow12RightSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_12thHeaderRow;
-            this.TextBoxRow12RightSide.Location = new System.Drawing.Point(412, 249);
+            this.TextBoxRow12RightSide.Location = new System.Drawing.Point(472, 256);
             this.TextBoxRow12RightSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.TextBoxRow12RightSide.Name = "TextBoxRow12RightSide";
-            this.TextBoxRow12RightSide.Size = new System.Drawing.Size(197, 20);
+            this.TextBoxRow12RightSide.Size = new System.Drawing.Size(147, 20);
             this.TextBoxRow12RightSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.TextBoxRow12RightSide.TabIndex = 433;
             this.TextBoxRow12RightSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row12_RH_Text;
@@ -6718,7 +6659,7 @@
             // 
             this.TextBoxRow8RightSide.AllowDrop = true;
             this.TextBoxRow8RightSide.BackColor = global::CAM_Setup_Sheets.Properties.Settings.Default.Row8_RH_BackColor;
-            this.TextBoxRow8RightSide.BeforeTouchSize = new System.Drawing.Size(197, 20);
+            this.TextBoxRow8RightSide.BeforeTouchSize = new System.Drawing.Size(687, 31);
             this.TextBoxRow8RightSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextBoxRow8RightSide.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row8_RH_Text", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow8RightSide.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::CAM_Setup_Sheets.Properties.Settings.Default, "Row8_RH_BackColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6727,11 +6668,11 @@
             this.TextBoxRow8RightSide.DataBindings.Add(new System.Windows.Forms.Binding("TextAlign", global::CAM_Setup_Sheets.Properties.Settings.Default, "OperationsHeaderRightRow8TextAlign", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.TextBoxRow8RightSide.Font = global::CAM_Setup_Sheets.Properties.Settings.Default.TextFontForRow8RightSide;
             this.TextBoxRow8RightSide.ForeColor = global::CAM_Setup_Sheets.Properties.Settings.Default.TextColorFor_RH_8thHeaderRow;
-            this.TextBoxRow8RightSide.Location = new System.Drawing.Point(412, 389);
+            this.TextBoxRow8RightSide.Location = new System.Drawing.Point(472, 400);
             this.TextBoxRow8RightSide.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.TextBoxRow8RightSide.Metrocolor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(211)))), ((int)(((byte)(212)))));
             this.TextBoxRow8RightSide.Name = "TextBoxRow8RightSide";
-            this.TextBoxRow8RightSide.Size = new System.Drawing.Size(197, 20);
+            this.TextBoxRow8RightSide.Size = new System.Drawing.Size(147, 20);
             this.TextBoxRow8RightSide.Style = Syncfusion.Windows.Forms.Tools.TextBoxExt.theme.Default;
             this.TextBoxRow8RightSide.TabIndex = 366;
             this.TextBoxRow8RightSide.Text = global::CAM_Setup_Sheets.Properties.Settings.Default.Row8_RH_Text;
@@ -6749,6 +6690,203 @@
             this.label131.Size = new System.Drawing.Size(70, 13);
             this.label131.TabIndex = 454;
             this.label131.Text = "Parameters";
+            // 
+            // label156
+            // 
+            this.label156.AutoSize = true;
+            this.label156.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label156.Location = new System.Drawing.Point(4, 37);
+            this.label156.Name = "label156";
+            this.label156.Size = new System.Drawing.Size(77, 13);
+            this.label156.TabIndex = 437;
+            this.label156.Text = "Header Row";
+            this.label156.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
+            // 
+            // label157
+            // 
+            this.label157.AutoSize = true;
+            this.label157.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label157.Location = new System.Drawing.Point(4, 73);
+            this.label157.Name = "label157";
+            this.label157.Size = new System.Drawing.Size(77, 13);
+            this.label157.TabIndex = 438;
+            this.label157.Text = "Header Row";
+            this.label157.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
+            // 
+            // label162
+            // 
+            this.label162.AutoSize = true;
+            this.label162.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label162.Location = new System.Drawing.Point(4, 109);
+            this.label162.Name = "label162";
+            this.label162.Size = new System.Drawing.Size(99, 26);
+            this.label162.TabIndex = 439;
+            this.label162.Text = "Text/Parameter Row";
+            this.label162.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
+            // 
+            // label163
+            // 
+            this.label163.AutoSize = true;
+            this.label163.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label163.Location = new System.Drawing.Point(4, 145);
+            this.label163.Name = "label163";
+            this.label163.Size = new System.Drawing.Size(99, 26);
+            this.label163.TabIndex = 440;
+            this.label163.Text = "Text/Parameter Row";
+            this.label163.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
+            // 
+            // label164
+            // 
+            this.label164.AutoSize = true;
+            this.label164.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label164.Location = new System.Drawing.Point(4, 181);
+            this.label164.Name = "label164";
+            this.label164.Size = new System.Drawing.Size(99, 26);
+            this.label164.TabIndex = 441;
+            this.label164.Text = "Text/Parameter Row";
+            this.label164.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
+            // 
+            // label165
+            // 
+            this.label165.AutoSize = true;
+            this.label165.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label165.Location = new System.Drawing.Point(4, 217);
+            this.label165.Name = "label165";
+            this.label165.Size = new System.Drawing.Size(99, 26);
+            this.label165.TabIndex = 442;
+            this.label165.Text = "Text/Parameter Row";
+            this.label165.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
+            // 
+            // label166
+            // 
+            this.label166.AutoSize = true;
+            this.label166.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label166.Location = new System.Drawing.Point(4, 253);
+            this.label166.Name = "label166";
+            this.label166.Size = new System.Drawing.Size(99, 26);
+            this.label166.TabIndex = 443;
+            this.label166.Text = "Text/Parameter Row";
+            this.label166.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
+            // 
+            // label167
+            // 
+            this.label167.AutoSize = true;
+            this.label167.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label167.Location = new System.Drawing.Point(4, 289);
+            this.label167.Name = "label167";
+            this.label167.Size = new System.Drawing.Size(99, 26);
+            this.label167.TabIndex = 444;
+            this.label167.Text = "Text/Parameter Row";
+            this.label167.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
+            // 
+            // label168
+            // 
+            this.label168.AutoSize = true;
+            this.label168.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label168.Location = new System.Drawing.Point(4, 325);
+            this.label168.Name = "label168";
+            this.label168.Size = new System.Drawing.Size(99, 26);
+            this.label168.TabIndex = 445;
+            this.label168.Text = "Text/Parameter Row";
+            this.label168.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
+            // 
+            // label169
+            // 
+            this.label169.AutoSize = true;
+            this.label169.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label169.Location = new System.Drawing.Point(4, 361);
+            this.label169.Name = "label169";
+            this.label169.Size = new System.Drawing.Size(99, 26);
+            this.label169.TabIndex = 446;
+            this.label169.Text = "Text/Parameter Row";
+            this.label169.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
+            // 
+            // label170
+            // 
+            this.label170.AutoSize = true;
+            this.label170.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label170.Location = new System.Drawing.Point(4, 397);
+            this.label170.Name = "label170";
+            this.label170.Size = new System.Drawing.Size(99, 26);
+            this.label170.TabIndex = 447;
+            this.label170.Text = "Text/Parameter Row";
+            this.label170.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ANY_MouseDown_Restore_TextBox_State);
+            // 
+            // label171
+            // 
+            this.label171.AutoSize = true;
+            this.label171.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label171.Location = new System.Drawing.Point(52, 527);
+            this.label171.Name = "label171";
+            this.label171.Size = new System.Drawing.Size(141, 32);
+            this.label171.TabIndex = 456;
+            this.label171.Text = "Drag items from list\r\nto fields on right";
+            // 
+            // listBoxPostParametersTab4
+            // 
+            this.listBoxPostParametersTab4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.listBoxPostParametersTab4.FormattingEnabled = true;
+            this.listBoxPostParametersTab4.Location = new System.Drawing.Point(7, 25);
+            this.listBoxPostParametersTab4.Name = "listBoxPostParametersTab4";
+            this.listBoxPostParametersTab4.Size = new System.Drawing.Size(173, 420);
+            this.listBoxPostParametersTab4.Sorted = true;
+            this.listBoxPostParametersTab4.TabIndex = 113;
+            this.listBoxPostParametersTab4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListBoxPostParametersTab4_MouseDown);
+            // 
+            // listBoxPostParametersTab5
+            // 
+            this.listBoxPostParametersTab5.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.listBoxPostParametersTab5.FormattingEnabled = true;
+            this.listBoxPostParametersTab5.Location = new System.Drawing.Point(7, 25);
+            this.listBoxPostParametersTab5.Name = "listBoxPostParametersTab5";
+            this.listBoxPostParametersTab5.Size = new System.Drawing.Size(173, 420);
+            this.listBoxPostParametersTab5.Sorted = true;
+            this.listBoxPostParametersTab5.TabIndex = 171;
+            this.listBoxPostParametersTab5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListBoxPostParametersTab5_MouseDown);
+            // 
+            // listBoxPostParametersTab6
+            // 
+            this.listBoxPostParametersTab6.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.listBoxPostParametersTab6.FormattingEnabled = true;
+            this.listBoxPostParametersTab6.Location = new System.Drawing.Point(7, 25);
+            this.listBoxPostParametersTab6.Name = "listBoxPostParametersTab6";
+            this.listBoxPostParametersTab6.Size = new System.Drawing.Size(173, 420);
+            this.listBoxPostParametersTab6.Sorted = true;
+            this.listBoxPostParametersTab6.TabIndex = 229;
+            this.listBoxPostParametersTab6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListBoxPostParametersTab6_MouseDown);
+            // 
+            // listBoxPostParametersTab7
+            // 
+            this.listBoxPostParametersTab7.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.listBoxPostParametersTab7.FormattingEnabled = true;
+            this.listBoxPostParametersTab7.Location = new System.Drawing.Point(7, 25);
+            this.listBoxPostParametersTab7.Name = "listBoxPostParametersTab7";
+            this.listBoxPostParametersTab7.Size = new System.Drawing.Size(173, 420);
+            this.listBoxPostParametersTab7.Sorted = true;
+            this.listBoxPostParametersTab7.TabIndex = 284;
+            this.listBoxPostParametersTab7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListBoxPostParametersTab7_MouseDown);
+            // 
+            // listBoxPostParametersTab8
+            // 
+            this.listBoxPostParametersTab8.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.listBoxPostParametersTab8.FormattingEnabled = true;
+            this.listBoxPostParametersTab8.Location = new System.Drawing.Point(7, 25);
+            this.listBoxPostParametersTab8.Name = "listBoxPostParametersTab8";
+            this.listBoxPostParametersTab8.Size = new System.Drawing.Size(173, 420);
+            this.listBoxPostParametersTab8.Sorted = true;
+            this.listBoxPostParametersTab8.TabIndex = 346;
+            this.listBoxPostParametersTab8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListBoxPostParametersTab8_MouseDown);
+            // 
+            // listBoxPostParametersTab9
+            // 
+            this.listBoxPostParametersTab9.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.listBoxPostParametersTab9.FormattingEnabled = true;
+            this.listBoxPostParametersTab9.Location = new System.Drawing.Point(7, 25);
+            this.listBoxPostParametersTab9.Name = "listBoxPostParametersTab9";
+            this.listBoxPostParametersTab9.Size = new System.Drawing.Size(173, 420);
+            this.listBoxPostParametersTab9.Sorted = true;
+            this.listBoxPostParametersTab9.TabIndex = 408;
+            this.listBoxPostParametersTab9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listBoxPostParametersTab9_MouseDown);
             // 
             // ExcelTemplateWizardStart
             // 
@@ -7271,8 +7409,6 @@
         private System.Windows.Forms.Label label160;
         private System.Windows.Forms.Label label159;
         private System.Windows.Forms.Label label158;
-        private System.Windows.Forms.Label label157;
-        private System.Windows.Forms.Label label156;
         private System.Windows.Forms.Label label155;
         private Syncfusion.Windows.Forms.Tools.TextBoxExt textBoxRow4LeftSide;
         private Syncfusion.Windows.Forms.Tools.TextBoxExt textBoxRow5LeftSide;
@@ -7317,5 +7453,17 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.NumericUpDown numericUpDown4;
         private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.Label label171;
+        private System.Windows.Forms.Label label170;
+        private System.Windows.Forms.Label label169;
+        private System.Windows.Forms.Label label168;
+        private System.Windows.Forms.Label label167;
+        private System.Windows.Forms.Label label166;
+        private System.Windows.Forms.Label label165;
+        private System.Windows.Forms.Label label164;
+        private System.Windows.Forms.Label label163;
+        private System.Windows.Forms.Label label162;
+        private System.Windows.Forms.Label label157;
+        private System.Windows.Forms.Label label156;
     }
 }
